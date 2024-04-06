@@ -35,7 +35,7 @@ export class Server {
     const MONGO_URI: string = environment.db_url;
 
     mongoose
-      .connect(MONGO_URI, { useNewUrlParser: true, useUnifiedTopology: true })
+      .connect("mongodb+srv://harshitaUser:dbUser@newdbcluster.ylwltv2.mongodb.net/?retryWrites=true&w=majority&appName=NewDbCluster", { useNewUrlParser: true, useUnifiedTopology: true })
       .then(() => {
         console.log("CONNECTED TO MONGO DATABASE");
       })
