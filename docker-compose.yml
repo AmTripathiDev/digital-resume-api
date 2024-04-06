@@ -1,0 +1,28 @@
+
+version: '3.9'
+
+services:
+  mongo_db: 
+    image: mongo:latest
+    volumes:
+      - dbData:/data/db
+    restart: always
+    ports:
+      - 27017:27017
+
+  app:
+    build: 
+      context: ./
+      dockerfile: Dockerfile
+    environment:
+      - MONGO_URI=mongodb://mongo_db:27017/digital-resume
+    volumes:
+      - .:/usr/backend-app
+      - /usr/backend-app/node_modules
+    ports:
+      - 3000:3000 
+    depends_on:
+      - mongo_db
+
+volumes:
+  dbData: {}

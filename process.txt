@@ -1,0 +1,19 @@
+Make Docker File
+Make compose yaml File
+We need mongo image
+We need backend image
+WE need environment variable 
+
+// Steps
+
+Define services using the Compose file.
+Run docker-compose to build the application.
+
+
+we need Two container and both can communicate
+                    |
+    1) Use Network for communication 
+    2) make compose.yml file -> it will all container with one network automatic 
+    3) use Env variable for connection with mongo
+
+       
