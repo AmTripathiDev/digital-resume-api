@@ -1,4 +1,3 @@
-# 
 name: Digital_Resume_Backend
 
 on: 
@@ -25,14 +24,4 @@ jobs:
         ssh -t -i keyfile ubuntu@ec2-13-127-203-77.ap-south-1.compute.amazonaws.com 
         sudo bash ~/digital-resume-api/project.sh
 
-
-    
-    
-
-
-
-
-
-
-
-
+        
