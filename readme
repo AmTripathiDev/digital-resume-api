@@ -26,32 +26,23 @@ This project is an Angular-based web application designed to help users create a
 
 # Tech Stack
 
-- **Node.js**: 
-  - Description: A JavaScript runtime built on Chrome's V8 JavaScript engine.
+- **Node.js**:  Description: A JavaScript runtime built on Chrome's V8 JavaScript engine.
 
-- **Express.js**: 
-  - Description: A minimal and flexible Node.js web application framework that provides a robust set of features for web and mobile applications.
+- **Express.js**:  Description: A minimal and flexible Node.js web application framework that provides a robust set of features for web and mobile applications.
 
-- **MongoDB**: 
-  - Description: A NoSQL database that uses a document-oriented data model.
+- **MongoDB**:  Description: A NoSQL database that uses a document-oriented data model.
 
-- **Mongoose**: 
-  - Description: An Object Data Modeling (ODM) library for MongoDB and Node.js, providing a straightforward schema-based solution to model application data.
+- **Mongoose**:  Description: An Object Data Modeling (ODM) library for MongoDB and Node.js, providing a straightforward schema-based solution to model application data.
 
-- **JWT (JSON Web Tokens)**: 
-  - Description: A compact, URL-safe means of representing claims to be transferred between two parties. It's commonly used for authentication and authorization.
+- **JWT (JSON Web Tokens)**:  Description: A compact, URL-safe means of representing claims to be transferred between two parties. It's commonly used for authentication and authorization.
 
-- **bcryptjs**: 
-  - Description: A library to help hash passwords securely.
+- **bcryptjs**:  Description: A library to help hash passwords securely.
 
-- **multer**: 
-  - Description: Middleware for handling multipart/form-data, primarily used for uploading files.
+- **multer**:   Description: Middleware for handling multipart/form-data, primarily used for uploading files.
 
-- **html-pdf**: 
-  - Description: A HTML to PDF converter that converts my template html in pdf
+- **html-pdf**:   Description: A HTML to PDF converter that converts my template html in pdf
 
-- **Nodemailer**: 
-  - Description: A module for Node.js applications to allow easy email sending. I am using this for verification of user after signup.
+- **Nodemailer**:  Description: A module for Node.js applications to allow easy email sending. I am using this for verification of user after signup.
 
 ## Installation
 
@@ -76,9 +67,6 @@ open mongodb compass
 Paste this connection string -> mongodb://localhost:27017
 
 ```
-
-
-
 
 ## Contributing
 
